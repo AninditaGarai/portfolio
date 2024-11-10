@@ -1,0 +1,176 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+/* Header Section with Background Image */
+header {
+    background-image: url('https://via.placeholder.com/1200x300'); /* Replace with a coding background image */
+    background-size: cover;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* About Section */
+.about-section {
+    background-color: #e0f7fa; /* Light blue background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Qualifications Section */
+.qualifications-section {
+    background-color: #ffe0b2; /* Light orange background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: #e1bee7; /* Light purple background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #ffe0f2; /* Light pink background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Resume Section */
+.resume-section {
+    background-color: #c8e6c9; /* Light green background */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* About, Qualifications, and Other Section Styles */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.section-image {
+    float: right;
+    margin-left: 15px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+/* Resume Button */
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
+/* Project and Contact Styling */
+.project {
+    display: flex;
+    align-items: center;
+    background-color: #9575cd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.project h3, .contact-links a {
+    color: #ffeb3b;
+    text-decoration: none;
+}
+
+.project h3:hover, .contact-links a:hover {
+    color: #fff;
+}
+
+/* Project Image Styles */
+.project-image {
+    width: 100%; /* Makes the image responsive */
+    max-width: 300px; /* Sets a maximum width for the image */
+}
+
+/* Header Styles */
+header {
+    background-image: url('x.avif'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover; /* Ensures the image covers the entire header area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+
+.header-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent overlay */
+    padding: 50px;
+    border-radius: 10px;
+    display: inline-block;
+}
